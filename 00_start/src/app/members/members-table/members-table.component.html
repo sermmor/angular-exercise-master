@@ -1,4 +1,10 @@
 <h2>Members Page</h2>
+<input
+  type="text"
+  name="organization"
+  [(ngModel)]="organization"
+  placeholder="GitHub Name Organization"
+/>
 <button (click)="loadMembers()">Load</button>
 <table>
   <thead app-member-head></thead>
